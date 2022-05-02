@@ -1,8 +1,0 @@
----
-expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: maximaGanancia
-  inspection: Uses:maximo
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: maximaGanancia
-  inspection: Not:UsesForeach

@@ -1,45 +1,28 @@
-_Ahora que sabemos la función que necesitamos (`gananciaTotal`), razonemos cómo hacerla..._
+Ana, contadora de una conocida empresa :office:, tiene registros para representar los balances de cada mes y distintas listas para guardarlos. Por ejemplo:
 
-Vamos de a poquito :hand:: si la lista no tuviera elementos, ¿cuánto debería ser la sumatoria? ¡0!
+```python
+#En julio ganó $50, en agosto perdió $12, etc.
+let balancesUltimoSemestre = [
+	{ "mes": "julio", "ganancia": 50 }, 
+	{ "mes": "agosto", "ganancia": -12 }, 
+	{ "mes": "septiembre", "ganancia": 1000 }, 
+	{ "mes": "octubre", "ganancia": 300 }, 
+	{ "mes":  "noviembre", "ganancia": 200 }, 
+	{ "mes": "diciembre", "ganancia": 0 }
+]
 
-```javascript
-function gananciaTotal0(balancesDeUnPeriodo) {
-  let sumatoria = 0;
-  return sumatoria;
-}
+let balancesPrimerTrimestre = [
+	{ "mes": "enero", "ganancia": 2 }, 
+	{ "mes": "febrero", "ganancia": 10 }, 
+	{ "mes": "marzo", "ganancia": -20 }
+]
 ```
 
-¿Y si tuviera exactamente 1 elemento? Sería... 0.... ¿más ese elemento? ¡Exacto! :sunglasses:
+Dicho esto, Ana necesita saber la ganancia acumulada de un conjunto de balances.
 
-```javascript
-function gananciaTotal1(balancesDeUnPeriodo) {
-  let sumatoria = 0;
-  sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
-  return sumatoria;
-}
+> Definí la función `gananciaTotal` que dado una lista de balances cualquiera nos devuelva la suma de todas:
+>
+```python
+ム gananciaTotal(balancesUltimoSemestre)
+1538
 ```
-
-¿Y si tuviera 2 elementos? :thought_balloon:
-
-```javascript
-function gananciaTotal2(balancesDeUnPeriodo) {
-  let sumatoria = 0;
-  sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
-  sumatoria = sumatoria + balancesDeUnPeriodo[1].ganancia;
-  return sumatoria;
-}
-```
-
-¿Y si tuviera 3 elementos? :thought_balloon:
-
-```javascript
-function gananciaTotal3(balancesDeUnPeriodo) {
-  let sumatoria = 0;
-  sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
-  sumatoria = sumatoria + balancesDeUnPeriodo[1].ganancia;
-  sumatoria = sumatoria + balancesDeUnPeriodo[2].ganancia;
-  return sumatoria;
-}
-```
-
-> ¿Descubriste patrón? Tratá de escribir `gananciaTotal4` que funcione para 4 elementos.

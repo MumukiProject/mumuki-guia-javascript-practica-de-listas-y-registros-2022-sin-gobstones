@@ -4,9 +4,9 @@ Más allá de las ganancias acumuladas o los balances positivos, Ana quisiera po
 >
 > ```javascript
 > ム ganancias([
-      { "mes": "enero", "ganancia": 40 }, 
-      { "mes": "febrero", "ganancia": 12 }, 
-      { "mes": "marzo", "ganancia": 8}
+      { mes: "enero", ganancia: 40 }, 
+      { mes: "febrero", ganancia: 12 }, 
+      { mes: "marzo", ganancia: 8}
   ])
 > [40, 12, 8]
 > ```

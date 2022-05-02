@@ -1,3 +1,3 @@
-¿Quizá necesites _agregar_ ganancias a una lista? ¿Te acordas de `push`? :thought_balloon:
+_¿Y ahora con qué valor inicializamos la variable local?_ :thinking:
 
-Recordá que la ganancia de un mes podría llegar a ser negativa.
+En este caso te va a servir una lista vacía, ¡pero no te olvides de agregarle elementos! :wink:

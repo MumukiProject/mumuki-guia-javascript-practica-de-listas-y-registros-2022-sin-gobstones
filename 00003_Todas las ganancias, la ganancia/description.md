@@ -1,7 +1,7 @@
 Ana, contadora de una conocida empresa :office:, tiene registros para representar los balances de cada mes y distintas listas para guardarlos. Por ejemplo:
 
 ```javascript
-#En julio ganó $50, en agosto perdió $12, etc.
+//En julio ganó $50, en agosto perdió $12, etc.
 let balancesUltimoSemestre = [
 	{ mes: "julio", ganancia: 50 }, 
 	{ mes: "agosto", ganancia: -12 }, 

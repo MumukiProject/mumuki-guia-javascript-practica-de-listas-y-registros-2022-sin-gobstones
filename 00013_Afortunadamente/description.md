@@ -2,4 +2,4 @@
 
 Combinemos las funciones `meses` y `afortunados` para saber cuáles fueron esos meses en los que nos visitó la buena fortuna. :money_mouth:
 
-> Definí la función `mesesAfortunados` que dada una lista de balances devuelve aquellos meses que fueron afortunados. Esta vez no podés usar listas por comprensión.
+> Definí la función `mesesAfortunados` que dada una lista de balances devuelve aquellos meses que fueron afortunados. 

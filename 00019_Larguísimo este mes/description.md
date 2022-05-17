@@ -15,4 +15,4 @@ Fuera del mal chiste, algunos meses son más largos que otros, es por eso que qu
 [{ mes: "enero", ganancia: 2 }, { mes: "marzo", ganancia: -20 }]
 ```
 
-> Definí la función `balancesDeMesesLargos` que funciona como te mostramos arriba. Te va a ser útil la primitiva `includes`.
+> Definí la función `balancesDeMesesLargos` que funciona como te mostramos arriba. Podés usar `for of` o `filter`. Te va a ser útil la primitiva `includes`.

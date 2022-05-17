@@ -3,8 +3,9 @@ Así como podíamos hacer mapeos utilizando utilizando `map`, también podemos h
 Imaginemos que tenemos la función `mayoresA5` que dada una lista de números nos retorna una nueva con aquellos que son mayores a 5:
 
 ``` javascript
-function mayoresA5(numeros):
+function mayoresA5(numeros){
   let mayores = [];
+  
   for (let numero of numeros){
     if (numero > 5){
       mayores.push(numero)

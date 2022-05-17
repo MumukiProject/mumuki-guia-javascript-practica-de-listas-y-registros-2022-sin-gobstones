@@ -16,4 +16,4 @@ Ana realiza muchas proyecciones sobre los balances de su empresa, por lo que le 
 
 Como verás, si las ganancias fueran negativas ahora serán ¡doblemente negativas! :chart_with_downwards_trend:
 
-> Definí la función `dobleDeGanancias`.
+> Definí la función `dobleDeGanancias`. Podés utilizar tanto `for...of` como `map`, lo que vos prefieras. :relaxed:

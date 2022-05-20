@@ -12,7 +12,7 @@ function largos(palabras){
 }
 ```
 
-Sin embargo, también podríamos hacerlo de esta manera map:
+Sin embargo, también podríamos hacerlo de esta manera utilizando `map`:
 
 ``` javascript
 function largos(palabras){
